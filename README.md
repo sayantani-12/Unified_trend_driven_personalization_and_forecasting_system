@@ -72,6 +72,13 @@ Based on the insights from user profiling and trend analysis, our system deliver
    Run the above script to generate a user_name.csv file with your sample data.
 
 ## Usage
+Real-Time Data Collection: The files instagram_scraping and twitter_scraping are used to scrap data from various social media platforms
+Time Series Forecasting: Utilize the Forecasting.py module to analyze time series and generate forecasts.
+Recommendation Engine: The recommender2_c.py and the recommender5.py module provide personalized recommendations based on user data.
+Trend Analysis: Use the ARIMA algorithm to identify and analyze trends in the data.
+User Profiling: The merge_recom.py module helps in creating detailed user profiles.
+User Interface: The simpleLogin.py module is used to create a Login page, for simple login and logout 
+
 ## Contributing
 We welcome contributions from the community! Please follow these steps to contribute:
 - Fork the repository.
