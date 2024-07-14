@@ -72,4 +72,12 @@ Based on the insights from user profiling and trend analysis, our system deliver
    Run the above script to generate a user_name.csv file with your sample data.
 
 ## Usage
+## Contributing
+We welcome contributions from the community! Please follow these steps to contribute:
+- Fork the repository.
+- Create a new branch.
+- Commit your changes.
+- Push to the branch.
+- Create a new Pull Request.
 
+Thank you for using the Unified Trend-Driven Personalization and Forecasting System! If you have any questions or need further assistance, please feel free to open an issue or contact us directly.
