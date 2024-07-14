@@ -71,5 +71,5 @@ Based on the insights from user profiling and trend analysis, our system deliver
    ```
    Run the above script to generate a user_name.csv file with your sample data.
 
-    ## Usage
+## Usage
 
