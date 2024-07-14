@@ -37,10 +37,10 @@ Based on the insights from user profiling and trend analysis, our system deliver
    cd unified_trend_driven_personalization_and_forecasting_system
    ```
 2. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
- ```
+   ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
 3. Install additional dependencies:
    ```bash
    pip install selenium statsmodels
