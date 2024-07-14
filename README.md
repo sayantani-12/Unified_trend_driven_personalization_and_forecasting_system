@@ -29,3 +29,10 @@ Our trend analysis feature identifies and analyzes emerging trends in the data. 
 User profiling involves creating detailed profiles based on user data. This includes demographic information, behavior patterns, and preferences, enabling more personalized interactions and content delivery.
 ### Customized Content Delivery
 Based on the insights from user profiling and trend analysis, our system delivers customized content to each user. This ensures relevant and engaging content, improving user satisfaction and retention.
+
+## Installation
+1.Clone the repository:
+   ```bash
+   git clone https://github.com/sayantani-12/unified_trend_driven_personalization_and_forecasting_system.git
+   cd unified_trend_driven_personalization_and_forecasting_system
+
