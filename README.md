@@ -43,7 +43,7 @@ Based on the insights from user profiling and trend analysis, our system deliver
     ```
 3. Install additional dependencies:
    ```bash
-   pip install selenium statsmodels
+   pip install selenium statsmodels matplotlib
    ```
 4. Set up ChromeDriver:
    Download the ChromeDriver that matches your Chrome browser version.
@@ -52,6 +52,24 @@ Based on the insights from user profiling and trend analysis, our system deliver
    from selenium import webdriver
    driver = webdriver.Chrome(executable_path='/path/to/chromedriver')
    ```
+5. Making a CSV File
+   Here is a simple script to create a CSV file:
+   ```bash
+   import csv
 
+    data = [
+    ['Name', 'Age', 'City'],
+    ['Alice', 30, 'New York'],
+    ['Bob', 25, 'San Francisco'],
+    ['Charlie', 35, 'Los Angeles']
+    ]
 
+    with open('user_name.csv', mode='w', newline='') as file:
+      writer = csv.writer(file)
+      writer.writerows(data)
+
+   ```
+   Run the above script to generate a user_name.csv file with your sample data.
+
+    ## Usage
 
