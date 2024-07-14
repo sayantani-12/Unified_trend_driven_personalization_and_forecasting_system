@@ -31,8 +31,27 @@ User profiling involves creating detailed profiles based on user data. This incl
 Based on the insights from user profiling and trend analysis, our system delivers customized content to each user. This ensures relevant and engaging content, improving user satisfaction and retention.
 
 ## Installation
-1.Clone the repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com/sayantani-12/unified_trend_driven_personalization_and_forecasting_system.git
    cd unified_trend_driven_personalization_and_forecasting_system
+   ```
+2. Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+ ```
+3. Install additional dependencies:
+   ```bash
+   pip install selenium statsmodels
+   ```
+4. Set up ChromeDriver:
+   Download the ChromeDriver that matches your Chrome browser version.
+   Move the downloaded chromedriver to a directory that's in your system's PATH, or specify the path in your script as follows:
+   ```bash
+   from selenium import webdriver
+   driver = webdriver.Chrome(executable_path='/path/to/chromedriver')
+   ```
+
+
 
