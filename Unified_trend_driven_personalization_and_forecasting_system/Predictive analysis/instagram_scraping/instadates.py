@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 from collections import defaultdict
 
 # Set up the WebDriver
-chrome_driver_path = r'E:\chromedriver-win64\chromedriver-win64\chromedriver.exe'  # Adjust path to your ChromeDriver executable
+chrome_driver_path = r'/path/to/chromedriver'  # Adjust path to your ChromeDriver executable
 service = Service(executable_path=chrome_driver_path)
 driver = webdriver.Chrome(service=service)
 
