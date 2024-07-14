@@ -2,7 +2,7 @@
 Welcome to the Unified Trend-Driven Personalization and Forecasting System! This project is designed to leverage real-time data collection and advanced analytics to provide personalized content and accurate forecasts. Below is an overview of the project's key features and how to get started.
 
 ## Table of Contents
-[Features](#features)
+- [Features](#features)
   - [User Data Integration](#user-data-integration)
   - [Real-Time Data Collection](#real-time-data-collection)
   - [Time Series Forecasting](#time-series-forecasting)
